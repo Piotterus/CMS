@@ -16,6 +16,9 @@ Including another URLconf
 from django.urls import path
 from . import views
 
+app_name = "articles"
+
 urlpatterns = [
-    path('', views.articleList)
+    path('', views.articleList, name="list"),
+    path('<slug:slug>/', views.articleDetail, name="detail")
 ]
