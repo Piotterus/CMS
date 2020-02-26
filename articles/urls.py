@@ -20,5 +20,6 @@ app_name = "articles"
 
 urlpatterns = [
     path('', views.articleList, name="list"),
+    path('create/', views.articleCreate, name="create"),
     path('<slug:slug>/', views.articleDetail, name="detail")
 ]
