@@ -81,6 +81,16 @@ nav button{
     color: #0f121f;
 }
 
+.article .category{
+    padding: 10px;
+    background: #0000FF;
+    position: absolute;
+    align-self: left;
+    bottom: 0;
+    margin: 0;
+    color: #0f121f;
+}
+
 .article-detail .article{
     padding: 0;
 }
